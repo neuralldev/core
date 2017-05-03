@@ -260,9 +260,9 @@ foreach (object::all() as $object) {
             </div>
         </div>
         <div class="form-group expertModeVisible">
-            <label class="col-xs-5 control-label">{{Multi lancement}}</label>
+            <label class="col-xs-5 control-label">{{Multi lancements}}</label>
             <div class="col-xs-1">
-                <input type="checkbox" class="scenarioAttr" data-l1key="configuration" data-l2key="allowMultiInstance" title="{{Le scénario pourra tourné plusieurs fois en même temps}}">
+                <input type="checkbox" class="scenarioAttr" data-l1key="configuration" data-l2key="allowMultiInstance" title="{{Le scénario pourra tourner plusieurs fois en même temps}}">
             </div>
         </div>
         <div class="form-group expertModeVisible">
@@ -345,7 +345,7 @@ foreach (object::all() as $object) {
                 </center>
                 <br/>
                 <div class="alert alert-info addElementTypeDescription if">
-                    Permet de faire des conditions dans votre scénario. Par exemple : Si mon détecteur d’ouverture de porte se déclenche Alors allumer la lumière.
+                    Permet d'ajouter des conditions dans votre scénario. Par exemple : Si mon détecteur d’ouverture de porte se déclenche Alors allumer la lumière.
                 </div>
 
                 <div class="alert alert-info addElementTypeDescription action" style="display:none;">
@@ -361,7 +361,7 @@ foreach (object::all() as $object) {
              </div>
 
              <div class="alert alert-info addElementTypeDescription at" style="display:none;">
-                 A un temps précis, cet élément permet de lancer une action. Par exemple : A 9h30 ouvrir les volets.
+                 A un temps précis, cet élément permet de faire une action. Par exemple : A 9h30 ouvrir les volets.
              </div>
 
              <div class="alert alert-info addElementTypeDescription code" style="display:none;">
